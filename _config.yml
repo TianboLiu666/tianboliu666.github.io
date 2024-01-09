@@ -22,7 +22,11 @@ title: Tianbo Liu
 email: liutianbo.m@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A Failed Life
+<<<<<<< HEAD
 baseurl: "" # the subpath of your site, e.g. /blog
+=======
+baseurl: "" # the subpath of your site, e.g. /blog
+>>>>>>> 2fab5a77e1f1b6bbdb69b03630bd78d06eefcdce
 url: "https://www.tianboliu.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: tianboliu666
@@ -32,6 +36,12 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+header_pages:
+  - projects.md
+  - blogs.md
+  - publications.md
+  - about.md
 
 header_pages:
   - projects.md
