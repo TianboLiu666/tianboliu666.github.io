@@ -32,10 +32,11 @@ theme: minima
 plugins:
   - jekyll-feed
 
-header-pages:
-  - about.md
+header_pages:
   - projects.md
   - blogs.md
+  - publications.md
+  - about.md
 
 collections:
   projects:
