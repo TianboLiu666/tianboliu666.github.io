@@ -32,6 +32,11 @@ theme: minima
 plugins:
   - jekyll-feed
 
+header-pages:
+  - about.md
+  - projects.md
+  - blogs.md
+
 collections:
   projects:
     output: true
