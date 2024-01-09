@@ -1,7 +1,7 @@
 ---
 title: "Complete gradient expanding Ricci solitons with finite asymptotic scalar curvature ratio"
 collection: publications
-permalink: /publication/:title
+permalink: /:title
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2021-11-09
 venue: " Calculus of Variations and Partial Differential Equations"

@@ -1,8 +1,9 @@
 ---
 layout: page
-# title: Papers
+title: Papers
 permalink: /papers/
 includelink: false
+exclude: true
 ---
 
 # 2023
