@@ -7,4 +7,4 @@ layout: default
 
 <h2>I'm Tianbo.</h2>
 <h2>Check out my <a href="{{ site.url }}/projects/">Projects</a></h2>
-<a href="{{page.url}}">github</a>
+<a href="https://github.com/{{ site.github_username }}">github</a>

@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: page
 title: Blogs
 permalink: /blogs/
-includelink: true
 ---
 
-<h1>Frist Project</h1>
+<!-- <h1>Frist Project</h1> -->
 
   <ul class="posts">
     {% for post in site.posts %}
@@ -15,3 +14,4 @@ includelink: true
       </li>
     {% endfor %}
   </ul>
+<!-- permalink: /publications/:title -->
