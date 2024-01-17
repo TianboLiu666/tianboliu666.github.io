@@ -83,3 +83,8 @@ exclude: true
 ### [Lambda models](https://nn.labml.ai/index.html)
 
 ### [Six Lectures on Linearized Neural Networks](https://arxiv.org/pdf/2308.13431.pdf)
+
+
+# R
+
+### [Soft Actor Critic](https://arxiv.org/pdf/1801.01290.pdf)

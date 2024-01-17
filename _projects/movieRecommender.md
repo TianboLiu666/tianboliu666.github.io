@@ -3,10 +3,7 @@ layout: post
 title: "Movie Recommendations"
 date: 2023-12-21 22:30:35 -0500
 excerpt:
-  "This is a sequel to the earlier paper [5] by the first and the second authors
-  in which curvature estimates were obtained for 4-dimensional complete gradient
-  expanding Ricci solitons. By scaling the metric g if necessary, we shall assume
-  throughout"
+  "This is movie search and recommendation engine"
 ---
 
 <!-- src = "/assets/projects/chatpdf-1.png" -->
