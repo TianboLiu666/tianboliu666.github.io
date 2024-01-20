@@ -6,3 +6,4 @@ vendor
 Gemfile.lock
 *.gem
 pgvector.md
+_posts/2024-01-07-welcome-to-jekyll.markdown

@@ -3,7 +3,7 @@ layout: post
 title: "Movie Recommendations"
 date: 2023-12-21 22:30:35 -0500
 excerpt:
-  "This is movie search and recommendation engine"
+  "This is a movie search and recommendation engine."
 ---
 
 <!-- src = "/assets/projects/chatpdf-1.png" -->
