@@ -35,13 +35,17 @@ customers have been under-represented in our shopping experience. And, my respon
 
 ```bash
 Over the years, I have made many mistakes. Consequently,
-many of my mistakes have hurt my reputation and hurt my credit, employment and state-
-legal standing.  Some of these mistakes will not be repeated.  But they are
-certain to be repeated.  A key lesson in this process of re-evaluation is that a single mistake has critical consequences,
-and that time cannot be wasted on misstatements regarding credit, credit quality or litigation.
+many of my mistakes have hurt my reputation and hurt my credit, employment 
+and state-legal standing.  Some of these mistakes will not be repeated.  
+But they are certain to be repeated.  A key lesson in this process of 
+re-evaluation is that a single mistake has critical consequences, and that 
+time cannot be wasted on misstatements regarding credit, credit quality or litigation.
 
 BERKSHIRE HATHAWAY PRODUCTS INC.
-Our business consists of 3,789 stores located in more than 40 states, including 50 manufacturing operations.  We have approximately 8,700 retail stores in 36 states, including 28 wholesale stores, serving more than 1 billion customers.  Pre-tax earnings of the stores is approximately $2.5 billion.
+Our business consists of 3,789 stores located in more than 40 states, including 
+50 manufacturing operations.  We have approximately 8,700 retail stores in 36 
+states, including 28 wholesale stores, serving more than 1 billion customers.  
+Pre-tax earnings of the stores is approximately $2.5 billion.
 ```
 
 `Berkshire Hathaway Inc. (“Berkshire,” “Company” or “Registrant”) is a holding company owning subsidiaries engaged in numerous diverse business activities. The most important of these are`

@@ -25,7 +25,15 @@ margin-right:10px;
   " width="30%" />
   <div style="display:flex;
   flex-direction: column;">
-<h4>I like mathematics and generative models</h4>
-<h4>hope to build something useful that people like</h4>
+
+<h4>I am proficient in Python, JavaScript/TypeScript.</h4>
+
+<h4>I also extensively used some tools or frameworks like PyTorch, Pandas, NumPy, Scikit-learn.</h4>
+
+<h4>I am familiar with many machine learning algorithms for examples, Random Forest Boosting, MLP, CNNs, RNN, LSTM, GPT-2, BERT, Llama 2, Reinforce, Actor–Critic, PPO.</h4>
+
+<h4>Full Stack development: React, Next.js, Flask, AWS RDS, GCP, Docker, Nginx.</h4>
+
+
 </div>
 </div>
