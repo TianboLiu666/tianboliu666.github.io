@@ -2,6 +2,7 @@
 layout: page
 title: Publications
 permalink: /publications/
+includelink: true
 ---
 
 <!-- <h1>Publications</h1> -->

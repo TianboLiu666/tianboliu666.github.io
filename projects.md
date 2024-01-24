@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
+includelink: true
 ---
 
 <!-- <h1>Frist Project</h1> -->

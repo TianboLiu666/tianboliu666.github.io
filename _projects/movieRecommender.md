@@ -10,6 +10,8 @@ excerpt:
 
 <a href="https://movie-recommender-awesome.netlify.app">Check it out</a>
 
-<img src="/assets/projects/chatpdf-1.png" width="50%" />
+TBC
+
+<!-- <img src="/assets/projects/chatpdf-1.png" width="50%" />
 <img src="/assets/projects/chatpdf-2.png" width="50%" />
-<img src="/assets/projects/chatpdf-3.png" width="50%" />
+<img src="/assets/projects/chatpdf-3.png" width="50%" /> -->

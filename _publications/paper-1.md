@@ -22,7 +22,7 @@ Let $$(M^n, g, f)$$, $$n\ge 5$$, be a complete gradient expanding Ricci soliton 
 V_{sphere} = \frac{4}{3}\pi r^3
 $$ -->
 
-$$
+<!-- $$
 \begin{align}
 \nabla_{\theta} E_x[f(x)] &= \nabla_{\theta} \sum_x p(x) f(x) & \text{definition of expectation} \\
 & = \sum_x \nabla_{\theta} p(x) f(x) & \text{swap sum and gradient} \\
@@ -30,6 +30,6 @@ $$
 & = \sum_x p(x) \nabla_{\theta} \log p(x) f(x) & \text{use the fact that } \nabla_{\theta} \log(z) = \frac{1}{z} \nabla_{\theta} z \\
 & = E_x[f(x) \nabla_{\theta} \log p(x) ] & \text{definition of expectation}
 \end{align}
-$$
+$$ -->
 
 [Download paper here](https://arxiv.org/pdf/2203.13178.pdf)

@@ -2,6 +2,7 @@
 layout: page
 title: Blogs
 permalink: /blogs/
+includelink: true
 ---
 
 <!-- <h1>Frist Project</h1> -->

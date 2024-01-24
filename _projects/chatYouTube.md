@@ -9,7 +9,7 @@ excerpt: "This app will help you with youtube videos.  You can transcribe video 
 
 <a href="https://chat-youtube.tianboliu.com">Check it out</a>
 
-<p>At the gallery page, you can see some videos that are already being transcribed by others.</p>
+<p>At the gallery page, you can see some videos that are already being transcribed by requests from others.</p>
 <img src="/assets/projects/chatYouTube-1.png" style="display:block;
   margin-left:auto;
   margin-right:auto;
@@ -19,7 +19,7 @@ excerpt: "This app will help you with youtube videos.  You can transcribe video 
   width: 70%;
   " width="50%" />
 
-<p>To create your own, you will have to log in using google</p>
+<p>To create your own, you will have to log in using your google account</p>
 <img src="/assets/projects/chatYouTube-3.png" style="display:block;
   margin-left:auto;
   margin-right:auto;
@@ -29,7 +29,7 @@ excerpt: "This app will help you with youtube videos.  You can transcribe video 
   width: 70%;
   " width="50%" />
 
-<p>At the front page, you can select to either chat or translate your PDFs.</p>
+<p>At the front page, you can select to either chat or transcribe your PDFs.</p>
 <img src="/assets/projects/chatYouTube-2.png" style="display:block;
   margin-left:auto;
   margin-right:auto;

@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Chat and Translate PDFs"
-date: 2023-10-20 22:30:35 -0500
-excerpt:
-  "A web application where you can chat with your PDFs.  Ask questions about, summarizing part or whole of the PDFs, ChatGPT on the backend will answer them.  You can also translate your PDFs into other languages."
+date: 2023-10-20 22:30:35 #-0500
+excerpt: "A web application where you can chat with your PDFs.  Ask questions about, summarizing part or whole of the PDFs, ChatGPT on the backend will answer them.  You can also translate your PDFs into other languages."
 ---
 
 <!-- src = "/assets/projects/chatpdf-1.png" -->
@@ -30,7 +29,7 @@ excerpt:
   padding: 5px;
   width: 70%;" width="50%" />
 
-  <p>After the translation is done, you will see the original PDF on the left and the translated one one the right.  You can view both files separately and download them as you like.</p>
+  <p>After the translation is done, you will see the original PDF on the left and the translated one on the right.  You can view both files separately and download them as you like.</p>
 <img src="/assets/projects/chatpdf-3.png" style="display:block;
   margin-left:auto;
   margin-right:auto;
