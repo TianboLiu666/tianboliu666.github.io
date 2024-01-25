@@ -208,7 +208,7 @@ where $$\alpha_i \geq 0, i =1,...,N,$$ We have
 
 $$
 \begin{equation}
-\mathbb{E}[u_N(X)] \geq \mathbb{E}[u_N(Y)] \ \ \ \ \ \(1)
+\mathbb{E}[u_N(X)] \geq \mathbb{E}[u_N(Y)] \ \ \ \ \ \ (1)
 \end{equation}
 $$
 
@@ -225,11 +225,11 @@ and we define $$c_M = u(M)$$, and
 
 $$
 \begin{equation*}
-\alpha*i =\left\{
+\alpha_i =\left\{
 \begin{array}{ccc}
-\frac{u(\eta*i) - u(\eta*{i-1})}{\eta*i - \eta*{i-1}} & \text{if} & i = M^2 \\
-\frac{u(\eta*i) - u(\eta*{i-1})}{\eta*i - \eta*{i-1}} -\frac{u(\eta*{i+1}) - u(\eta*{i})}{\eta*{i+1} - \eta*{i}} & \text{if} & i = M^2-1, M^2-2,..., -M^2 +1 \\
-u(\eta*i) - u(\eta_i -1) - \frac{u(\eta*{i+1}) - u(\eta*{i})}{\eta*{i+1} - \eta\_{i}} & \text{if} & i = -M^2
+\frac{u(\eta_i) - u(\eta_{i-1})}{\eta_i - \eta_{i-1}} & \text{if} & i = M^2 \\
+\frac{u(\eta_i) - u(\eta_{i-1})}{\eta_i - \eta_{i-1}} -\frac{u(\eta_{i+1}) - u(\eta*{i})}{\eta_{i+1} - \eta_{i}} & \text{if} & i = M^2-1, M^2-2,..., -M^2 +1 \\
+u(\eta_i) - u(\eta_i -1) - \frac{u(\eta_{i+1}) - u(\eta_{i})}{\eta_{i+1} - \eta\_{i}} & \text{if} & i = -M^2
 \end{array}%
 \right.
 \end{equation*}
@@ -388,7 +388,7 @@ $$
 \left[0.64132052, 0.35867948\right]
 $$
 
-and it has expected return 2.46%. It is slight above the reference return and is much below the maximum expected return of 3.2% if we invest 100\% on S&P 500. As we can also see, the portfolio is only slightly different from the benchmark $$[0.6,0.4]$$.
+and it has expected return 2.46%. It is slight above the reference return and is much below the maximum expected return of 3.2% if we invest 100% on S&P 500. As we can also see, the portfolio is only slightly different from the benchmark $$[0.6,0.4]$$.
 
 The expected shortfall $$F(X,*)$$ appearing in the dominance constrains are illustrated in the Figure above. As we can see, the two portfolio shortfall functions largely overlap.
 
@@ -405,6 +405,9 @@ Volume 30, Issue 2, February 2006, Pages 433-451.
 
 4. Ogryczak, Wlodzimierz., & Ruszczyński, Andrzej., From stochastic dominance to mean-risk models:
 Semideviations as risk measures. European Journal of Operational Research 116 (1999).
+
+
+-----------------------
 
 <p>Check out PDF version below</p>
 <object data= 

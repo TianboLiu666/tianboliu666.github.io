@@ -67,7 +67,7 @@ SWIFT messages are one-way, much like emails, which means that transactions canâ
 <div class="imgcap">
 <img src="/assets/blogs/blockchain/blockchain-3.png" style="max-width:100%;
   max-height:100%;">
-<div class="thecap"><b>Example of Cross Border Payments</b></div>
+<div class="thecap"><b>Ripple cross border payment</b></div>
 </div>
 
 > Central Bank Digital Currency (CBDC). CBDCs are a form of digital currency issued by a country's central bank. They are similar to cryptocurrencies, except that their value is fixed by the central bank and equivalent to the country's fiat currency. CBDC, if accepted by both companies of the transaction, can reduce the need of intermediaries, therefore improving the current cross border payment system. Major cryptocurrencies like Bitcoin could also be used, but they are highly volatile, with their value constantly fluctuating.
@@ -147,6 +147,7 @@ Overcoming these challenges will be crucial for realizing the full potential of 
 13. [Distributed ledger technology for securities clearing and settlement: benefits, risks, and regulatory implications, Priem Financial Innovation (2020) 6:11](https://doi.org/10.1186/s40854-019-0169-6)
 
 ---------------
+<p>Check out PDF version below</p>
 <object data= 
 "/assets/files/Blockchain.pdf" width="500" height="375" 
                 width="800"
