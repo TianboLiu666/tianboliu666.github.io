@@ -12,7 +12,7 @@ mathjax: true
 
 <!-- <embed src="/assets/files/Blockchain.pdf" width="500" height="375"  -->
  <!-- type="application/pdf"> -->
-<p>A study the problem of constructing a portfolio of finitely many assets</p>
+<p>A study of the problem of constructing a portfolio of finitely many assets</p>
 
 > We study the problem of constructing a portfolio of finitely many assets whose return rates are described by a discrete joint distribution. In particular, we study the portfolio optimization via stochastic dominance constraints in the second order.
 
@@ -82,7 +82,7 @@ It is usually required that the function $$u(*)$$ is concave and nondecreasing, 
 
 In this blog, we study an alternative approach, by introducing a comparison to a benchmark return rate into the optimization problem. This approach has a fundamental advantage over both mean-risk models and utility function models. All data for our model are readily available. In mean-risk models the choice of the risk measure has an arbitrary character $$\lambda$$, and it is difficult to argue for one measure against another. Optimization of expected utility requires the form of the utility function to be specified. The alternative approach, departing from the benchmark outcome, generates implied utility function of the decision maker.
 
----
+--------
 
 ## Stochastic Dominance
 
@@ -151,20 +151,7 @@ d\beta \\
 \end{eqnarray*}
 $$
 </div>
-<!-- $$
-\begin{proof}
-\begin{eqnarray*}
-F*2(X;\eta) &=& \int*{-\infty}^{\eta} F*1(X; \alpha) d\alpha \\
-&=& \int*{-\infty}^\alpha \int*{-\infty}^\beta d F(X; \beta) d\alpha \\
-&=& \int*{-\infty}^{\eta} \int*{\beta}^{\eta}
-d\alpha d F(X; \beta) \\
-&=& \int*{-\infty}^{\eta} (\eta -\beta) P(X \leq \beta)
-d\beta \\
-&=& P( X \leq \eta) \mathbb{E}[(\eta - X)|X \leq \eta] \\
-&=& \mathbb{E}[(\eta - X)_+]
-\end{eqnarray*}
-\end{proof}
-$$ -->
+
 
 The theory of stochastic orders plays a fundamental role in economics. It has an equivalent characterization in terms of the expected utility theory. A random variable $R$ dominates the random variable $$Y$$ if $$\mathbb{E}[u(R)] \geq \mathbb{E}[u(Y)]$$ for all functions $$u(*)$$ from certain set of functions.
 
@@ -358,6 +345,7 @@ we obtain a feasible pair $$(x,s)$$ for problem (*). Conversely, for any feasibl
 Taking the expected value of both sides and using the second inequalities, we obtain
 $$F_2(R(x); y_i) \leq F_2(Y; y_i).$$ Therefore, the problem (1) is equivalent to problem above.
 
+---------------------------
 ## Numerical Illustration
 
 In this section, we investigate whether the traditional 60/40 portfolio, i.e., 60% stocks with 40% bonds, is the optimal combination among others. The two assets are widely used:S\&P 500 and U.S. long term government bonds. We use the returns in successive quarters as equally probable realizations from 04/2009- 01/2020.
@@ -365,8 +353,9 @@ In this section, we investigate whether the traditional 60/40 portfolio, i.e., 6
 In other words, the reference random return Y has realizations:
 
 $$
-y*t = \frac{6}{10} r_{1t} + \frac{4}{10} r_{2t} \quad t =1,2,...,m
+y_t = \frac{6}{10} r_{1t} + \frac{4}{10} r_{2t} \quad t =1,2,...,m
 $$
+
 where m=43, and $$r_{1t}, r_{2t}$$ denote the return of S&P 500 and U.S. long term government bonds respectively. The probabilities of these realizations are $$\frac{1}{43}$$. The expected return of the reference portfolio is equal to 2.37%.
 
 Our object is to maximize the expected return of the portfolio, under the condition that its return dominates the reference return Y in the second order.
@@ -380,12 +369,18 @@ $$
 \sum_{t=1}^{43} \sum_{j=1}^2 p_t x_j r_{jt} \\
 & \text{subject to} \\
 & \sum_{j=1}^2 x_j r_{jt} \geq y_i, \quad i =1,...,43 \quad t = 1,...,43 \\
-& \sum_{t=1}^{43} p*t s_{it} \leq \sum_{k=1}^{43} \frac{1}{43} (y_i - y_t)_+ , \quad i =1,...,43 \\
+& \sum_{t=1}^{43} p_t s_{it} \leq \sum_{k=1}^{43} \frac{1}{43} (y_i - y_t)_+ , \quad i =1,...,43 \\
 & s\_{it} \geq 0 \\
 & x_1 + x_2 =1, \quad x_1 \geq 0, \quad x_2 \geq 0
 \end{aligned}
 % \end{equation}
 $$
+
+<div class="imgcap">
+<img src="/assets/blogs/portfolio-optim.png" style="max-width:100%;
+  max-height:100%;">
+<div class="thecap"><b>The shortfall functions for the portfolios of indices</b></div>
+</div>
 
 The optimal portfolio is
 
@@ -395,26 +390,21 @@ $$
 
 and it has expected return 2.46%. It is slight above the reference return and is much below the maximum expected return of 3.2% if we invest 100\% on S&P 500. As we can also see, the portfolio is only slightly different from the benchmark $$[0.6,0.4]$$.
 
-The expected shortfall $$F(X,*)$$ appearing in the dominance constrains are illustrated in Figure 1. As we can see, the two portfolio shortfall functions largely overlap._
-
-<div class="imgcap">
-<img src="/assets/blogs/portfolio-optim.png" style="max-width:100%;
-  max-height:100%;">
-<div class="thecap"><b>The shortfall functions for the portfolios of indices</b></div>
-</div>
+The expected shortfall $$F(X,*)$$ appearing in the dominance constrains are illustrated in the Figure above. As we can see, the two portfolio shortfall functions largely overlap.
 
 
+---------------------
 ## Reference
 
-1. Dentcheva, Darinka., \& Ruszczyński, Andrzej., {\em Optimization with Stochastic Dominance Constraints}. SIAM Journal on Optimization 14, 548–566.
+1. Dentcheva, Darinka., & Ruszczyński, Andrzej., Optimization with Stochastic Dominance Constraints. SIAM Journal on Optimization 14, 548–566.
 
-2. Dentcheva, Darinka., \& Ruszczyński, Andrzej., {\em Portfolio optimization with stochastic dominance constraints}. Journal of Banking \& Finance
+2. Dentcheva, Darinka., & Ruszczyński, Andrzej., Portfolio optimization with stochastic dominance constraints. Journal of Banking & Finance
 Volume 30, Issue 2, February 2006, Pages 433-451.
 
-3. Dentcheva, Darinka., \& Ruszczyński, Andrzej., {\em Risk-Averse Portfolio Optimization via Stochastic Dominance Constraints}. Handbook of Quantitative Finance and Risk Management.
+3. Dentcheva, Darinka., & Ruszczyński, Andrzej., Risk-Averse Portfolio Optimization via Stochastic Dominance Constraints. Handbook of Quantitative Finance and Risk Management.
 
-4. Ogryczak, Wlodzimierz., \& Ruszczyński, Andrzej., {\em From stochastic dominance to mean-risk models:
-Semideviations as risk measures}. European Journal of Operational Research 116 (1999).
+4. Ogryczak, Wlodzimierz., & Ruszczyński, Andrzej., From stochastic dominance to mean-risk models:
+Semideviations as risk measures. European Journal of Operational Research 116 (1999).
 
 <p>Check out PDF version below</p>
 <object data= 
