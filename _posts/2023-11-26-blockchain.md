@@ -14,7 +14,7 @@ categories: jekyll update
  <!-- type="application/pdf"> -->
 <p>A short survey on how BlockChain could impact Capital Markets</p>
 
-> In this short paper, we survey the disruptions and opportunities blockchain technology could bring to the Capital Markets. Specifically, we explain the current state of the cross border payments system and the existing clearing and settlement system, from which we discuss several potential ways Blockchain technology could improve efficiency, reducing risk in capital markets.
+> In this short blog, we survey the disruptions and opportunities blockchain technology could bring to the Capital Markets. Specifically, we explain the current state of the cross border payments system and the existing clearing and settlement system, from which we discuss several potential ways Blockchain technology could improve efficiency, reducing risk in capital markets.
 
 ## Introduction
 
@@ -29,7 +29,7 @@ Blockchain technology is likely to be a key source of future financial market in
 The key elements of a blockchain-based ledger, those that will enable future efficiency gains, are the distributed nature of the ledger, its immutable character, and the existence of an agreed-upon consensus mechanism. These make it possible to automate transactions, providing for close to real-time settlement etc. Due to these benefits, blockchain provides a cheap and secure way to reduce the need for intermediaries in cross border payments and streamline the clearing and settlement processes in security transactions, which will be discussed in more detail in next section.  Despite its great potential, blockchain technology also poses challenges and risks, falling into two broad categories: technical and regulatory. Section 2 will concentrate on this part.
 
 ---------
-## Streamlineprocessesandreducetheneedforintermediaries
+## Streamline processes and reduce the need for intermediaries
 
 Blockchain technology provides a way for untrusted parties to come to an agreement on the state of a database, without using a middleman. By providing a ledger that nobody administers, a blockchain could provide specific financial services — like payments or securitization — without the need for a bank.
 
@@ -134,7 +134,7 @@ Overcoming these challenges will be crucial for realizing the full potential of 
 1. [Blockchain in Capital Markets The Prize and the Journey](https://www.oliverwyman.com/content/dam/oliver-wyman/global/en/2016/feb/BlockChain-In-Capital-Markets.pdf)
 2. [Blockchain in Institutional Capital Markets](https://consensys.io/blockchain-use-cases/capital-markets)
 3. [How does Blockchain make cross-border payments better? crypto council for innovation,](https://cryptoforinnovation.org/what-are-cross-border-payments-and-how-do-they-work/)
-4. https://www.infosys.com/industries/financial-services/white-papers/documents/blockchai n-adoption-financial-services.pdf
+4. https://www.infosys.com/industries/financial-services/white-papers/documents/blockchain-adoption-financial-services.pdf
 5. [What are cross-border payments, and how do they work?](https://cointelegraph.com/explained/what-are-cross-border-payments-and-how-do-they-work)
 6. [How blockchain could disrupt banking](https://www.cbinsights.com/research/blockchain-disrupting-banking/)
 7. [Off The Chain! A Guide to Blockchain Derivatives Markets and the Implications on Systemic Risk, Ryan Surujnath, J.D. Candidate, Fordham University School of Law, 2017,](https://ir.lawnet.fordham.edu/cgi/viewcontent.cgi?article=1440&context=jcfl)

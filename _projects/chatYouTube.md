@@ -39,8 +39,18 @@ excerpt: "This app will help you with youtube videos.  You can transcribe video 
   width: 70%;
   " width="50%" />
 
-<p>Click the create button on the navigation bar and paste the YouTube video URL</p>
+<p>The transcription will be shown on the right side.  The transcription is provided by open source Whisper model</p>
 <img src="/assets/projects/chatYouTube-4.png" style="display:block;
+  margin-left:auto;
+  margin-right:auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 70%;
+  " width="50%" />
+
+<p>You can also chat with the video</p>
+<img src="/assets/projects/chatYouTube-5.png" style="display:block;
   margin-left:auto;
   margin-right:auto;
   border: 1px solid #ddd;

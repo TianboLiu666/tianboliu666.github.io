@@ -64,17 +64,7 @@
 # # Excluded items can be processed by explicitly listing the directories or
 # # their entries' file path in the `include:` list.
 # #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
 ###########################################
 ###########################################
 ###########################################
@@ -82,7 +72,7 @@
 # Site settings
 title: Tianbo Liu
 email: tbliu2020@outlook.com
-description: "A Failed Life"
+description: Personal Website
 baseurl: ""
 url: "https://www.tianboliu.com"
 github_username: tianboliu666
