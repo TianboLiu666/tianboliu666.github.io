@@ -47,6 +47,10 @@ exclude: true
 
 ### [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://arxiv.org/pdf/2308.04079.pdf)
 
+### [Scalable Diffusion Models with Transformers](https://arxiv.org/pdf/2212.09748.pdf)
+
+### [TransGAN: Two Pure Transformers Can Make One Strong GAN, and That Can Scale Up]
+
 # Multimodal
 
 1. ### [OpenFlamingo: An Open-Source Framework for Training Large Autoregressive Vision-Language Models](https://arxiv.org/pdf/2308.01390.pdf)
@@ -75,6 +79,7 @@ exclude: true
 # Auto Encoder
 
 ### [Auto-Encoding Variational Bayes](https://arxiv.org/pdf/1312.6114.pdf)
+### [Tutorial on Variational Autoencoders](https://arxiv.org/pdf/1606.05908.pdf)
 
 # Repos
 

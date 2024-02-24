@@ -37,9 +37,9 @@ You can find the source code for Jekyll at GitHub:
 
     <p>I have also extensively used some tools or frameworks like PyTorch, Pandas, NumPy, Scikit-learn.</p>
 
-    <p>I am familiar with many machine learning algorithms for examples, Random Forest Boosting, MLP, CNNs, RNN, LSTM, GPT-2, BERT, Llama 2, Reinforce, Actor–Critic, PPO.</p>
+    <p>I am familiar with many machine learning algorithms for examples, Random Forest Boosting, MLP, CNNs, RNN, LSTM, GPT-2, Llama 2, Mixtral, Reinforce, Actor–Critic, PPO.</p>
 
-    <p>Full Stack development: React, Next.js, Flask, AWS RDS, GCP, Docker, Nginx.</p>
+    <p>I also have some experience in full Stack development using tools and frameworks like React, Next.js, Flask, AWS RDS, GCP, Docker, Nginx etc.</p>
     <!-- </div> -->
 
   </div>

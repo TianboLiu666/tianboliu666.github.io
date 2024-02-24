@@ -9,9 +9,10 @@ layout: page
 
 I like quantitative subjects and have a solid background in mathematics.
 
-Recently, I have been fascinated by generative models, like GPTs, Llama 2 etc.
+Recently, I have been fascinated by generative models, like GPTs, Llama 2, Mixtral etc.
 
-After figuring out the theoretical aspects of these models, I have built some full stack Web applications utilizing some open source(weights) models and APIs. 
+<!-- After figuring out the theoretical aspects of these models,  -->
+I have built some full stack RAG Web applications utilizing some open source(weights) models and APIs.  I am working on fast and low cost inference of open weights models.
 
 > Check out my <a href="{{ site.url }}/projects/">Projects</a>
 
